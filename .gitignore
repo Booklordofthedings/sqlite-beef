@@ -1,6 +1,5 @@
 # ---> Beef
 build/
 recovery/
-deps/
 BeefSpace_User.toml
 
