@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {Sqlite-Beef = {Path = "."}}
+
+[Workspace]
+StartupProject = "Sqlite-Beef"

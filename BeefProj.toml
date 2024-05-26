@@ -1,0 +1,21 @@
+FileVersion = 1
+
+[Project]
+Name = "Sqlite-Beef"
+TargetType = "BeefLib"
+StartupObject = "Sqlite_Beef.Program"
+
+[Configs.Debug.Win32]
+LibPaths = ["$(ProjectDir)/deps/win_sqlite3.lib"]
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/deps/win_sqlite3.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)/deps/win_sqlite3.lib"]
+
+[Configs.Paranoid.Win64]
+LibPaths = ["$(ProjectDir)/deps/win_sqlite3.lib"]
+
+[Configs.Test.Win64]
+LibPaths = ["$(ProjectDir)/deps/win_sqlite3.lib"]
